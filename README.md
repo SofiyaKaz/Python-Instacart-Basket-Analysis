@@ -5,43 +5,43 @@ This project focuses on analyzing Instacart's customer purchasing patterns to un
 
 ## Key Questions
 
--What are the busiest days of the week and hours of the day?
--At what times do customers spend the most money?
--With Instacart’s wide range of product prices, what recommendations can simplify price range groupings to better guide marketing efforts?
--Are there specific types of products that are more popular than others?
--How is brand loyalty distributed among users?
--Do ordering habits vary based on a customer’s loyalty status?
--Are there differences in ordering habits based on a customer’s region?
--Is there a connection between age and family status regarding ordering habits?
--What classifications can be derived from demographic information, such as age, income, types of goods, and family status?
--What are the differences in ordering habits of different customer profiles?
+- Are there particular times during the day where customers spend more money?
+- How can Instacart simplify pricing?
+- Which products/departments are more popular than others?
+- What types of customers are there and how do their behaviors differ?
+- How often do customers return to Instacart?
+- Are there differences in ordering habits based on a customer’s loyalty status?
+- Are there differences in ordering habits based on a customer’s region?
+- Is there a connection between age and family status in terms of ordering habits?
+- What different classifications does the demographic information suggest? Age? Income? Certain types of goods? Family status?
+- What are the differences in ordering habits of different customer profiles?
 
-##**Data** 
+## Data
 
--orders
--orders_products_pripor
--products
--customers
--departments
+- orders
+- orders_products_pripor
+- products
+- customers
+- departments
 
-##**Tools**
+## Tools
 
 The data was analysed using Python and the following libraries:
 
--Pandas : for data analysis
--Numpy: for mathematical equations
--Seaborn: for data visulizations
--Matplotlib: for data visulizations
--Scipy: for data equations
+- Pandas : for data analysis
+- Numpy: for mathematical equations
+- Seaborn: for data visulizations
+- Matplotlib: for data visulizations
+- Scipy: for data equations
 
-##**Folders**
+## Folders
 
 Description of folder contents are as follows:
 
 1. Project Management: Project Brief and Data Dictionary.
 2. Data: Includes two subfolders: (Data was not uploaded to GitHub due to size limitations.)
--'Original Data': Original datasets.
--'Prepared Data': Cleaned data ready for analysis.
+ - 'Original Data': Original datasets.
+ - 'Prepared Data': Cleaned data ready for analysis.
 3. Scripts: The Jupyter notebooks containing the coding for the analysis.
 4. Analysis: The Visualizations folder contains the visualizations used for exploratory analysis and explaining insights.
 5. Sent to Client: The final report presented in Excel.
